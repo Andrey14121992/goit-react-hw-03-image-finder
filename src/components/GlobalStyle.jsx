@@ -6,11 +6,13 @@ export const GlobalStyle = createGlobalStyle`
   width: 100vw;
   overflow-x: hidden;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 body {
   overflow:hidden;
   margin: 0;
@@ -21,6 +23,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 img {
   display: block;
   max-width: 100%;
